@@ -1,0 +1,54 @@
+.allStrips {
+	width: 300px;
+	background-color: gray;
+	height: 100%;
+	float:left;
+}
+
+.findStrips {
+	width: 300px;
+	bottom: 0;
+	height: 50px;
+	position: absolute;
+	background-color: darkgray;	bottom: 0;
+
+}
+
+.currentStrip {
+	width: 100%;
+
+}
+
+.scriptEditor {
+	width: 300px;
+	background-color:gray;
+	height: 100%;
+	float: right;
+}
+html, body {
+	height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.strip {
+	background-color: darkgray;
+	height: 30px;
+}
+
+.segment {
+	background-color: #A3A3C2;
+	margin-bottom: 15px;
+
+}
+
+.changeName, .segmentName {
+	display: inline-block;
+	background-color: #A3A3C2;
+
+}
+
+.flipStatus {
+	width: 64px;
+	height: 64px;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" type="text/css" href="editorstyle.css">
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="Colors.js"></script>
+  <script type="text/javascript" src="jqColorPicker.js"></script>
+  <script type="text/javascript"></script>
+  <script src="editor.js"></script>
+  </head>
+  <body>
+  <div class="allStrips">
+    <button class="findStrips">Find Strip</button>
+  </div>
+  <textarea>
+from Script import Script
+class Random(Script):
+  def __init__(self, main):
+    Script.__init__(self, main,"RandomTest")
+
+  def next(self):
+     pass;
+  </textarea>
+  <button class="upload">Submit</button>
+  </body>
+</html>
